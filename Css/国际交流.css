@@ -1,0 +1,154 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #eaeaea;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    margin: 0;
+    color: #333333;
+}
+
+/* 通知公告模块样式 */
+.notice-board {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.notice-list {
+    list-style-type: none;
+    padding: 0;
+    animation: fadeIn 1s ease-out;
+}
+
+.notice-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+    transition: background-color 0.3s ease;
+}
+
+.notice-item:hover {
+    background-color: #e9ecef;
+}
+
+.date {
+    color: #666666;
+    font-weight: 700;
+}
+
+.title {
+    margin-left: 20px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.notice-item:last-child {
+    border-bottom: none;
+}
+
+/* 热点聚焦模块样式 */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.module {
+    width: calc(50% - 10px); /* 两列布局 */
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.module-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.module-description {
+    padding: 15px;
+}
+
+h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    color: #666;
+}
+
+.date {
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* 动画 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container, .header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .module {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .notice-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .date {
+        margin-bottom: 5px;
+    }
+}

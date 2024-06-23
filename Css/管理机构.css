@@ -1,0 +1,25 @@
+/*-----------------------------PartFour--------------------------------*/
+.PartFour li { width: 228px; margin: 10px 0; float: left; border: 1px solid #F0F0F0; padding: 15px 0; cursor: pointer; height: 230px; position: relative; }
+.PartFour span { display: block; margin: 0 auto; color: #787887; font-size: 9pt; line-height: 30px; }
+.PartFour h3 { font-size: 11pt; font-weight: bold; color: #4c4c59; text-align: center; margin-top: 5px; }
+.partFourImg { width: 80px; height: 80px; }
+.smallP { background: #F2044D; position: absolute; top: 0px; left: 115px; width: 0px; height: 90px; z-index: -1; }
+.bottomShadow { position: absolute; bottom: -12px; top: 262px; width: 230px; height: 10px; }
+/*-----------------------------Features--------------------------------*/
+.Features { }
+.title { font-size: 24px; color: #EC054B; text-align: center; line-height: 24px; padding-bottom: 15px; }
+.desc { color: #999; text-align: center; font-size: 14px; padding-bottom: 15px; }
+#fea_spec { position: absolute; width: 312px; height: 109px; background: #F2044D; left: 318px; top: 0; z-index: -1; }
+.Features a { overflow: hidden; display: block; width: 312px; height: 76px; margin: 10px 10px; margin: 10px 5px; float: left; padding: 15px 0; position: relative; }
+.Features .featuresEnd { width: 316px; }
+.Features a:hover { color: white; background: #F2054D; }
+.Features dl { display: block; }
+.Features dt { width: 66px; height: 66px; float: left; margin: 5px 10px; margin: 5px 5px; }
+.Features h3 { font-size: 11pt; line-height: 30px; }
+.Features dd { font-size: 9pt; margin-right: 6px; margin-right: 3px; line-height: 22px; }
+.f1 { background: url(../Images/home_icon_czxixi2014.png) 0 -80px; }
+.f2 { background: url(../Images/home_icon_czxixi2014.png) -66px -80px; }
+.f3 { background: url(../Images/home_icon_czxixi2014.png) -132px -80px; }
+.f4 { background: url(../Images/home_icon_czxixi2014.png) -198px -80px; }
+.f5 { background: url(../Images/home_icon_czxixi2014.png) -264px -80px; }
+.f6 { background: url(../Images/home_icon_czxixi2014.png) -330px -80px; }

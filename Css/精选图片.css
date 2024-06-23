@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div{
+	width:324px;
+	height: 324px;
+	margin: 200px auto;
+	position: relative;
+	transform-style:preserve-3d; 
+	animation-name:revolve;
+	/*animation-name:re;*/
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	/*animation-direction: alternate;*/
+	animation-timing-function:linear;
+}
+img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation-name:re;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	/*opacity: 0.5*/;
+}
+.p1{
+	transform: translateZ(162px);
+}
+.p2{
+	transform: translateY(-162px) rotateX(90deg);
+}
+.p3{
+	transform: translateX(-162px) rotateY(-90deg);
+}
+.p4{
+	transform: translateX(162px) rotateY(90deg);
+}
+.p5{
+	transform: translateY(162px) rotateY(180deg) rotateX(-90deg);
+}
+.p6{
+	transform: translateZ(-162px);
+}
+@keyframes revolve{
+	from{transform: rotate3d(1,1,0,0deg);}
+	to{transform: rotate3d(1,1,1,-360deg);}
+}
+@keyframes re{
+	from{opacity: 0.7;}
+	50%{opacity: 0.2 ;}
+	to{opacity: 0.5 ;}
+}
+div:hover{
+	.p1{
+		transform: translateZ(300px);
+	}
+	.p2{
+		transform: translateY(-300px) rotateX(90deg);
+	}
+	.p3{
+		transform: translateX(-300px) rotateY(-90deg);
+	}
+	.p4{
+		transform: translateX(300px) rotateY(90deg);
+	}
+	.p5{
+		transform: translateY(300px) rotateY(180deg) rotateX(-90deg);
+	}
+	.p6{
+		transform: translateZ(-300px);
+	}
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; list-style:none; outline:none; border:0; background:none;}
+body{font-family:"微软雅黑"; font-size:14px; }
+a:link,a:visited{ text-decoration:none; color:#fff; font-size:16px;}
+li{float: left;}
+a{
+	display:inline-block; 
+	height:48px; 
+	padding:0 50px; 
+	line-height:48px; 
+}
+.bg{background:#fe9ab5;}
+a:hover{background:#fe9ab5;}
+/* content */
+#content{ 
+	height:649px;
+	background:url(../images/学生入口.jpg); 
+	background-size:100%;
+	background-attachment: fixed;
+	margin:0 auto; 
+	/*padding-left:150px;*/
+	padding-top: 150px;
+}
+h3{
+	width:444px; 
+	height:45px; 
+	font-size:20px; 
+	font-weight:100; 
+	color:#1f1f1f; 
+	line-height:45px; 
+	border-bottom:1px solid #1f1f1f;
+	margin: auto;
+}
+table{
+	margin: auto;
+}
+td{ 
+	height:50px; 
+	color:#1f1f1f;
+}
+.left{
+	width:120px; 
+	text-align:right;
+}
+.right{
+	width:320px; 
+	height:28px; 
+	border:1px solid #1f1f1f;
+}
+input{vertical-align:middle;}
+select{
+	width:171px; 
+	border:1px solid #1f1f1f; 
+	color:#1f1f1f;
+}
+textarea{
+	width:380px; 
+	border:1px solid #1f1f1f; 
+	resize:none; 
+	font-size:12px; 
+	color:#aaa; 
+	padding:20px;
+}
+.bu{
+	/*width: 550px;*/
+	text-align: center;
+}
+.button{
+	border: none;
+  	color: white;
+ 	padding: 10px 40px;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+  	background-color: white; 
+  	color: black; 
+  	border: 2px solid #1f1f1f;
+}
+.button:hover {
+  background-color: #04AA6D;
+  color: white;
+}

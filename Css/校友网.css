@@ -1,0 +1,51 @@
+/*---C_C----*/
+.C_C { width: 100%; margin: 0 auto; padding: 30PX 0; background: url(../Images/white_bg.gif) top repeat-y; }
+
+/* Client */
+.Client { width: 470px; overflow: hidden; padding-right: 25px; border-right: 1px dashed #999999; float: left; }
+.Client .title { text-align: left; }
+.Client .desc { text-align: left; }
+.Client .multipleColumn { overflow: hidden; position: relative; width: 470px; }
+.Client .multipleColumn .hd { overflow: hidden; height: 30px; padding: 0 10px; }
+.Client .multipleColumn .hd .pageState { display: none }
+.Client .multipleColumn .hd .prev, .multipleColumn .hd .next { display: block; width: 5px; height: 9px; float: right; margin-right: 5px; margin-top: 10px; overflow: hidden; cursor: pointer; background: url("../Images/icoleft.gif") no-repeat; display: none; }
+.Client .multipleColumn .hd .next { background: url("../Images/icoright.gif") no-repeat; display: none; }
+.Client .multipleColumn .hd ul { float: right; overflow: hidden; zoom: 1; margin-top: 10px; zoom: 1; }
+.Client .multipleColumn .hd ul li { float: left; width: 12px; height: 12px; overflow: hidden; margin-right: 6px; text-indent: -999px; cursor: pointer; background: #999; border-radius: 50%; }
+.Client .multipleColumn .hd ul li.on { background: #cc0000; }
+.Client .multipleColumn .bd { overflow: hidden; padding: 10px 0; }
+.Client .multipleColumn .bd ul { overflow: hidden; zoom: 1; width: 495px; float: left; _display: inline; }
+.Client .multipleColumn .bd ul li { margin: 0px; float: left; _display: inline; overflow: hidden; text-align: center; margin-right: 22px; margin-bottom: 20px; }
+.Client .multipleColumn .bd ul li .pic { text-align: center; }
+.Client .multipleColumn .bd ul li .pic img { width: 138px; height: 138px; display: block; border: 2px solid #eee; }
+.Client .multipleColumn .bd ul li .pic a:hover img { border:2px #EC054B solid; }
+.Client .multipleColumn .bd ul li .title { line-height: 24px; display: none; }
+/* - Comment - */
+.Comment { width: 480px; float: right; }
+.Comment .title { text-align: left; }
+.Comment .desc { text-align: left; }
+.Comment .txtScroll-left { position: relative; }
+.Comment .txtScroll-left .hd { overflow: hidden; height: 30px; padding: 0 10px; }
+.Comment .txtScroll-left .hd .pageState { display: none }
+.Comment .txtScroll-left .hd .prev, .txtScroll-left .hd .next { display: block; width: 30px; height: 9px; float: right; margin-right: 5px; margin-top: 10px; overflow: hidden; cursor: pointer; background: url("../Images/arrow.png") no-repeat; }
+.Comment .txtScroll-left .hd .prev { background: url(../Images/leftarrow2.png) center; }
+.Comment .txtScroll-left .hd .next { background: url(../Images/rightarrow2.png) center; }
+.Comment .txtScroll-left .hd .prevStop { background-position: -60px 0; }
+.Comment .txtScroll-left .hd .nextStop { background-position: -60px -50px; }
+.Comment .txtScroll-left .hd ul { float: right; overflow: hidden; zoom: 1; margin-top: 10px; }
+.Comment .txtScroll-left .hd ul li { float: left; width: 12px; height: 12px; overflow: hidden; margin-right: 5px; text-indent: -999px; cursor: pointer; background: #999; border-radius: 50%; }
+.Comment .txtScroll-left .hd ul li.on { background: #cc0000; }
+.Comment .txtScroll-left .bd { padding: 10px 0; width: 470px; overflow: hidden; }
+.Comment .txtScroll-left .bd ul { overflow: hidden; zoom: 1; }
+.Comment .txtScroll-left .bd ul li { float: left; height: 310px; line-height: 24px; text-align: left; _display: inline; background: url(../Images/comment_bg.jpg) top no-repeat }
+.Comment .txtScroll-left .bd ul li span.wa { display: block; height: 140px; padding: 65px 50px 65px 50px; width: 360px; color: #333; font-size: 14px; }
+.Comment .txtScroll-left .bd ul li span.commentWriter { color: #fff; background: #c00; line-height: 30px; padding: 0 50px; display: block; height: 30px; }
+.no-wrap {
+    width: 71%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 26px;
+}
